@@ -2,40 +2,30 @@
 <html lang="en">
 <head>
 
-
     <meta charset="UTF-8">
-    <title>Document</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cps</title>
     <link rel="stylesheet" href="style.css">
-
-
+   
 </head>
 <body>
-    <script src="counter.js" defer></script>
-
+<script src="index.js" defer></script>
 <div id="container">
+   
+    <p id="tittle">CPS counter</p>
+    <p id="Cuentaregresiva">cuenta regresiva</p>
+    <p id="contclicks"> numero total de clicks</p>
+    <p id="cps">Resultado cps</p>
 
-
-    <div id="child">
-    <div>CPS Test</div>
-    <p id="parf">Clicks</p>
-    <p id="cuentareg"></p>
-    <p id="parf2" >resultado</p>
-    <div id="btncontainer"> 
-        <button id="btnRestart", onclick="reset()">Restart</button>
-        <button id="btnStart", onclick="start()">Start</button>
+    <div id="contbotones">
+    <button id="btnstart", onclick="start(true)", onclick="setintervalID">Start</button>
+    <button id="btnreset", onclick="reset()">Reset</button>
     </div>
-    <button id="btn", onclick="counter()"></button> 
 
+    <button id="boton", onclick="numerodeclicks()">click meee</button>
 
-
-    <style>
-        #btn {
-            height: 100px;
-            width: 100px;
-        }
-    </style>
-    </div>
-</div> 
+</div>
 
 </body>
 </html>

@@ -1,85 +1,88 @@
 *{
-    text-align: center;
-    font-family: Courier;
-    background-color: lightblue;
+    font-family: 'Courier New';
+    padding: 7px;
+    border: transparent;
+    background-color: #1e3d60;
+
 }
 
 #container{
-    margin-top: 15%;
-    margin-left: 45%;
-    width: 350px;
-    height: 300px;
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #1a6c9b 0%, #80cdd0 100%);
+    box-shadow: 2px -2px 8px darkblue,
+                -2px 2px 8px rgba(72, 255, 0, 0.411);
     display: grid;
-    place-items: center;
-    align-items: center;
-    background: rgb(57,196,227);
-    background: radial-gradient(circle, rgba(57,196,227,1) 0%, rgba(12,87,119,1) 95%);
-    box-shadow: 0px 20px 30px black;
-    border-radius: 18px;
-    
-}
-
-#btn{
-    background-color: rgb(9, 89, 121);
-    padding: 20px;
-    border: transparent;
-    border-radius: 10px;
-}
-
-#child{
-    display: grid;
+    place-content: center;
     align-content: center;
-    background: transparent;
-}
-
-#parf{
-    background-color: rgba(0, 0, 0, 0.11);
-}
-#cuentareg{
-    background-color: rgba(0, 0, 0, 0.11);
-}
-
-#btn:hover{
-    background-color: rgb(16, 75, 85);
-}
-#btn:active{
-    background-color: rgb(111, 204, 176);
-}
-
-#btnStart{
-    height: 30px;
-    width: 80px;
-    display: flex;
-    grid-column: 1; 
-    grid-row: 3;
+    width: 300px;
+    height: 500px;
+    margin: auto;
+    margin-top: 15%;
+    justify-items: center;
     border: transparent;
+    border-radius: 15px;
 }
 
-#btnStart:hover{
-    background-color: rgb(2, 31, 70);
-}
-#btnStart:active{
-    background-color: rgb(8, 105, 76);
-}
-#btnRestart{
-    height: 30px;
-    width: 80px;
-    display: flex;
-    grid-column: 1; 
-    grid-row: 3;
-    border: transparent;
-}
-
-#btnRestart:hover{
-    background-color: rgb(2, 31, 70);
-}
-#btnRestart:active{
-    background-color: rgb(8, 105, 76);
-}
-
-#btncontainer{
+#tittle{
+    font: black bold Courier;
+    font-size: 25px;
+    background-color: rgba(0, 219, 248, 0.74);
+    border-radius: 20px;
+    box-shadow: 2px -2px 8px rgb(9, 9, 219),
+                -2px 2px 8px rgba(7, 134, 192, 0.411);
     display: flex;
     place-content: center;
-    align-items: center;
-    border: transparent;
+    text-justify: center;
+}
+
+#Cuentaregresiva{
+    background-color: transparent
+}
+
+#contclicks{
+    background-color: transparent;
+    padding: 7px;
+    margin-bottom: 10px;
+    border-radius: 10%;
+}
+#cps{
+    background-color: transparent
+}
+
+#boton{
+    width: 200px;
+    height: 150px;
+    background-color: #1a6c9b;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}    
+
+#boton:hover{
+    background-color: #1e3d6067;
+}
+#boton:active{
+    background-color: #4d7cb18e;
+}
+
+#btnstart{
+    width: 80px;
+    box-shadow: 0px 0px 5px #012122;
+}
+#btnstart:active{
+    background-color: #0f7779;
+}
+
+
+#btnreset{
+    width: 80px;
+    box-shadow: 0px 0px 5px #042d2e;
+}
+#btnreset:active{
+    background-color: #0f7779;
+}
+
+#contbotones{
+    background-color: transparent;
 }
